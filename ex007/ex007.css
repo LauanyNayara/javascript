@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+background-color: rgb(80, 80, 210);
+
+}
+.div1{
+    display: flex;
+   
+}
+.div3{
+    margin: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 200px;
+    margin-left: 560px;
+    flex-direction: column;
+}
+header{
+    color: white;
+}
+footer{
+    color: white;
+}
+.div5{
+   margin-top: 5px;
+}

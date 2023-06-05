@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(46, 235, 100, 0.709);
+}
+.div1 {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.div2 {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.div3 {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+main{
+   text-align: center;
+  background-color: white;
+  width: 490px;
+  margin-left: 500px;
+  background-color: rgba(174, 115, 229, 0.678);
+}   
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+
+}
+button{
+    border-radius: 6px;
+    background-color: rgb(23, 149, 188);
+    color: rgba(83, 3, 3, 0.904);
+    width: 80px;
+    height: 50px;
+    margin-bottom: 10px;
+}

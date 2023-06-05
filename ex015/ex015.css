@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(196, 5, 126, 0.709);
+}
+main{
+   text-align: center;
+  background-color: white;
+  width: 490px;
+  margin-left: 500px;
+  background-color: rgba(248, 30, 77, 0.678);
+}   
+header{
+    text-align: center;
+    color: antiquewhite;
+}
+footer{
+    text-align: center;
+    color: antiquewhite;
+}
+button{
+    border-radius: 6px;
+    background-color: rgb(13, 163, 250);
+    color: rgba(83, 3, 3, 0.904);
+    margin-left: 5px;
+}
+.Resultados{
+    color: rgb(196, 248, 248);
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

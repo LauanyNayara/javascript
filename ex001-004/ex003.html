@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex003</title>
+    <style>
+        body{
+            background-color: rgb(193, 168, 216);
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            color: rgb(2, 253, 253);
+        }
+        button{
+            background-color: blueviolet;
+            border-radius: 5px;
+            color: antiquewhite;
+        }
+        p{
+            color: rgb(174, 174, 240);
+        }
+        .div1{background-color: rgba(0, 0, 0, 0.441);
+            width: 400px;
+            align-items: center;
+            margin-top: 20px;
+            border-radius: 5px
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Somador de números</h1>
+        <button onclick="somadosnumeros()">Click para somar</button>
+      
+        <script>
+          function somadosnumeros(){
+            var s1 = prompt('digite um número')
+            var s2 = prompt('digite um número')
+            var soma = parseFloat(s1) + parseFloat(s2)
+            alert (`a soma do número ${s1} com o número ${s2} resulta em ${soma} `)
+        }
+        </script>
+        <p>click no botão acima para somar</p>
+    </div>
+   
+</body>
+</html>

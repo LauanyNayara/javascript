@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+    <style>
+        body{
+            background-color: rgb(127, 202, 255);
+            text-align: center;
+        }
+        h1{
+            color: rgb(141, 5, 93);
+        }
+        p{
+            color: rgb(205, 17, 17);
+        }
+        button{
+            background-color: blueviolet;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registro de visitas</h1>
+    <button onclick="cadastrar()">Cadastrar nova pessoa</button>
+    <p>Pessoas que passaram por aqui</p>
+    <div id="cadastrar"></div>
+    <script>
+        function cadastrar(){
+            var sn = prompt('digite seu nome')
+            document.getElementById("cadastrar").innerHTML += (`<br> &#x1F596; Acabei de cadastrar <strong> ${sn} </strong> no sistema`)
+        }
+    </script>
+</body>
+</html>

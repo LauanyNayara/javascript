@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(46, 46, 235, 0.709);
+}
+.div1 {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.div2 {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+main{
+   text-align: center;
+  background-color: white;
+  width: 490px;
+  margin-left: 500px;
+  background-color: rgba(174, 115, 229, 0.678);
+}   
+header{
+    text-align: center;
+    color: antiquewhite;
+}
+footer{
+    text-align: center;
+    color: antiquewhite;
+}
+button{
+    border-radius: 6px;
+    background-color: aquamarine;
+    color: rgba(83, 3, 3, 0.904);
+}
+.passou{
+    color: rgba(44, 232, 226, 0.879);
+}
+.naopassou{
+    color: rgb(186, 30, 30);
+}
+img{
+    height: 150px;
+    width: 250px;
+}
+.h3{
+    color: rgb(196, 248, 248);
+}

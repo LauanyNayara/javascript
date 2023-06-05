@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basquete.css">
+</head>
+<body>
+    <header>
+        <h1>Placar Eletrônico</h1>
+    </header>
+    <main>
+        <div class="div1">
+            <div class="div2">
+                <p>Time 1</p>
+                <p id="placar1">0</p>
+                <button type="button" onclick="Ponto1(1)">Ponto</button>
+            </div>
+            <div class="div3">
+                <p>x</p>
+            </div>
+            <div class="div4">
+                <p >Time 2</p>
+                <p id="placar2">0</p>
+                <button type="button" onclick="Ponto2(1)">Ponto</button>
+            </div>
+        </div>
+         <div class="div5"> 
+                 <button type="reset" onclick="Limpar()">zerar</button>
+            </div>
+    </main>
+    <h2>Basquete</h2>
+    <main class="main2">
+        
+        <div class="div6">
+            <div class="div2">
+                <p>Time 1</p>
+                <p id="placar3">0</p>
+                <button type="button" onclick="Ponto_basquete1(1)">add1</button>
+                <button type="button" onclick="Ponto_basquete1(2)">add2</button>
+                <button type="button" onclick="Ponto_basquete1(3)">add3</button>
+            </div>
+            <div class="div3">
+                <p>x</p>
+            </div>
+            <div class="div4">
+                <p >Time 2</p>
+                <p id="placar4">0</p>
+                <button type="button" onclick="Ponto_basquete2(1)">add1</button>
+                <button type="button" onclick="Ponto_basquete2(2)">add2</button>
+                <button type="button" onclick="Ponto_basquete2(3)">add3</button>
+            </div>
+        </div>
+         <div class="div5"> 
+                 <button type="reset" onclick="Limparbasquete()">zerar</button>
+            </div>
+    </main>
+   
+    <footer>
+        <p> Sesi / Senai - Curso Desenvolvimento de Sistemas</p>
+    </footer>
+    <script src="basquete.js"></script>
+</body>
+</html>

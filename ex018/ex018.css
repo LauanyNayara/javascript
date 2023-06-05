@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(16, 207, 245, 0.861);
+}
+main{
+   text-align: center;
+  background-color: white;
+  width: 490px;
+  margin-left: 500px;
+
+}   
+header{
+    text-align: center;
+    color: rgb(21, 81, 247);
+}
+footer{
+    text-align: center;
+    color: rgb(153, 10, 108);
+}
+button{
+    border-radius: 6px;
+    background-color: rgb(122, 15, 215);
+    color: rgba(83, 3, 3, 0.904);
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.Resultados{
+    color: rgb(7, 183, 183);
+}
+img{
+    width: 40px;
+    height: 40px;
+}

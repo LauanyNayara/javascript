@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(103, 103, 209);
+
+}
+.div1 {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    text-align: center;
+   background-color: white;
+   width: 490px;
+   margin-left: 500px;
+}   
+header{
+color: white;
+text-align: center;
+}   
+footer{
+    text-align: center;
+    color: white;
+}
+.div2 {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
